@@ -4,13 +4,13 @@ import streamlit as st
 # Draw a title and some text to the app:
 title = st.title("Mood Journal Analyzer!")
 
-text = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?")
-text1 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text1")
-text2 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text2")
-text3 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text3")
-text4 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text4")
-text5 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text5")
-text6 = st.text_input("Please enter a sentence about your day: ", placeholder="How was your day?", key="text6")
+text = st.text_input("Please enter a sentence about Sunday: ", placeholder="How was your day?")
+text1 = st.text_input("Please enter a sentence about Monday: ", placeholder="How was your day?", key="text1")
+text2 = st.text_input("Please enter a sentence about Tuesday: ", placeholder="How was your day?", key="text2")
+text3 = st.text_input("Please enter a sentence about Wednesday: ", placeholder="How was your day?", key="text3")
+text4 = st.text_input("Please enter a sentence about Thursday: ", placeholder="How was your day?", key="text4")
+text5 = st.text_input("Please enter a sentence about Friday: ", placeholder="How was your day?", key="text5")
+text6 = st.text_input("Please enter a sentence about Saturday: ", placeholder="How was your day?", key="text6")
 
 blob = TextBlob(text)
 blob1 = TextBlob(text1)
