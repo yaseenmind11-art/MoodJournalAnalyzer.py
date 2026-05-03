@@ -1,2 +1,2 @@
-textblob
-emoji
+streamlit
+duckduckgo-search
